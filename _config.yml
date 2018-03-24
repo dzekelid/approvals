@@ -1,10 +1,10 @@
-title: Streamdata Gallery Approval
-url: approval.streamdata.gallery
-tag: Approval
+title: Streamdata Gallery Approvals
+url: approvals.streamdata.gallery
+tag: Approvals
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 github_user: streamdata-gallery
-github_repo: approval
+github_repo: approvals
 github_branch: master
 collections:
   listings:
