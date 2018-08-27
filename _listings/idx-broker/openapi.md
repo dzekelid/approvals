@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: IDX Broker
 x-complete: 1
@@ -357,4 +356,3 @@ paths:
       - Mls
       - Searchfields
       - Approvedmls
----

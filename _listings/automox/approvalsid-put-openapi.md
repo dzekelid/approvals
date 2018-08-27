@@ -1,0 +1,58 @@
+---
+swagger: "2.0"
+x-collection-name: Automox
+x-complete: 0
+info:
+  title: Automox Put Approvals
+  description: Update a manual approval record. Set `manual_approval` attribute of
+    `approval` object to `true` to approve a patch; set it to `false` to reject a
+    patch
+  termsOfService: https://www.automox.com/
+  contact:
+    name: support@automox.com
+  version: 1.0.0
+host: console.automox.com
+basePath: /api
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /approvals/{id}:
+    put:
+      summary: Put Approvals
+      description: Update a manual approval record. Set `manual_approval` attribute
+        of `approval` object to `true` to approve a patch; set it to `false` to reject
+        a patch
+      operationId: update-a-manual-approval-record-set-manual-approval-attribute-of-approval-object-to-true-to-approve-
+      x-api-path-slug: approvalsid-put
+      parameters:
+      - in: body
+        name: approval
+        description: Approval object
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: id
+        description: Approval ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Approvals
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

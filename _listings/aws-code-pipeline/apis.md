@@ -16,11 +16,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Approvals
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/approvals/master/_listings/aws-code-pipeline/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Code Pipeline API - Put Approval Result
+  x-api-slug: actionputapprovalresult-get
+  description: Provides the response to a manual approval request to AWS CodePipeline.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/approvals/master/_listings/aws-code-pipeline/actionputapprovalresult-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/approvals/master/_listings/aws-code-pipeline/actionputapprovalresult-get-openapi.md
 - name: AWS Code Pipeline API - Put Approval Result
   x-api-slug: actionputapprovalresult-get
   description: Provides the response to a manual approval request to AWS CodePipeline.
